@@ -1,10 +1,11 @@
 while (true) {
-  const name = prompt("Как тебя зовут, человек?");
+  let name = prompt("Напиши свое имя или нажми отмена, человек");
   if (name === null) {
     alert("Не сильно то и хотелось твое имя знать, будешь просто человек!");
     document.querySelector(".name").textContent = "Человек";
     break;
   } else if (name.length) {
+    name = name.toLocaleUpperCase();
     document.querySelector(".name").textContent = `${name},`;
     break;
   }
