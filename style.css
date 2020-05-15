@@ -70,11 +70,16 @@ img {
   display: none;
 }
 
+.wrap {
+  display: flex;
+}
+
 .back {
   display: none;
 }
 
 .health {
+  text-align: center;
   display: none;
 }
 
