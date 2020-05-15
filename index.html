@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game test</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="Saw.jpg" alt="saw" class="title-img" width="320" />
+      <img src="end.jpg" alt="saw" class="title-img2" width="320" />
+      <img src="finish.jpg" alt="finish" class="title-img3" />
+
+      <div class="text">
+        <p class="title">
+          Привет,
+        </p>
+        <p class="name"></p>
+        <p class="title-bottom">я хочу сыграть с тобой в игру!</p>
+      </div>
+
+      <section class="main-test">
+        <div class="instruction">
+          <h2 class="main-test__rules">Краткая инструкция:</h2>
+          <p>
+            Старт начинается со 100 единиц здоровья (100 hp), каждый
+            неправильный ответ - страшные пытки (-35 hp), каждый правильный
+            ответ - получаешь печеньки (+15 hp), если здоровье меньше 85 единиц.
+            Правило только одно - ответить на все вопросы и остаться в живых :)
+          </p>
+        </div>
+        <div class="quest1">
+          Пошевели мозгами. В комнате было 12 цыплят, 3 кролика, 5 щенят, 2
+          кошки, 1 петух и 2 курицы. В комнату вошел хозяин с собакой. Сколько в
+          комнате стало ног?
+        </div>
+        <button class="btn qu1">Ответить</button>
+        <div class="quest2">
+          Пять копачей за 5 часов выкапывают 5 м канавы. Сколько копачей за 100
+          часов выкопают 100 м канавы?
+        </div>
+        <button class="btn qu2">Ответить</button>
+        <div class="quest3">
+          На гробнице мудрого легендарного библейского царя Соломона потомки
+          изобразили знаменитую печать правителя. Попробуй сосчитать, сколько
+          равносторонних треугольников изображено на печати.
+        </div>
+        <img class="img3" src="triangle.jpg" alt="triangle" />
+        <button class="btn qu3">Ответить</button>
+        <div class="quest4">
+          Продавец продаёт шапку. Стоит 10 р. Подходит покупатель, меряет и
+          согласен взять, но у него есть только банкнота 25 р. Продавец отсылает
+          мальчика с этими 25 р. к соседке разменять. Мальчик прибегает и отдаёт
+          10+10+5. Продавец отдаёт шапку и сдачу 15 руб. Через какое-то время
+          приходит соседка и говорит, что 25 р. фальшивые, требует отдать ей
+          деньги. Ну что делать. Продавец лезет в кассу и возвращает ей деньги.
+          На сколько обманули продавца (включая стоимость шапки)?
+        </div>
+        <button class="btn qu4">Ответить</button>
+        <div class="health">
+          <div class="quest5">
+            И последний вопрос. Сколько будет править Putin? Ответь надо одним
+            словом.
+          </div>
+          <button class="btn qu5">Ответить</button>
+          <p class="health__text">
+            Твое здоровье: <span class="health__num">100</span>
+          </p>
+        </div>
+
+        <button class="btn start1">Готов проиграть</button>
+        <button class="btn back">Сбежать</button>
+        <button class="btn start2">Все еще готов проиграть</button>
+      </section>
+      <button class="btn restart">НАЧАТЬ ЗАНОВО</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
