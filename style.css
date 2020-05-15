@@ -7,6 +7,15 @@
   margin: 35px auto;
 }
 
+.author {
+  opacity: 0.2;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
 .restart {
   display: none;
 }
